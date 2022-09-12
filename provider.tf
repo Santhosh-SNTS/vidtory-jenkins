@@ -14,8 +14,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "dilema"
+    bucket = "forestbucket1"
     key    = "gitbackup/terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-1"
   }
 }
